@@ -1,0 +1,52 @@
+// Fonts
+
+// Nunito ExtraLight
+// font-family: "nunito", sans-serif;
+// font-weight: 200;
+// font-style: normal;
+
+// Nunito ExtraLight Italic
+// font-family: "nunito", sans-serif;
+// font-weight: 200;
+// font-style: italic;
+
+// Nunito Regular
+// font-family: "nunito", sans-serif;
+// font-weight: 400;
+// font-style: normal;
+
+// Nunito Italic
+// font-family: "nunito", sans-serif;
+// font-weight: 400;
+// font-style: italic;
+
+// Nunito Bold
+// font-family: "nunito", sans-serif;
+// font-weight: 700;
+// font-style: normal;
+
+// Nunito Bold Italic
+// font-family: "nunito", sans-serif;
+// font-weight: 700;
+// font-style: italic;
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0 auto;
+    font-family: "nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    max-width: 2000px;
+    margin: 0 auto;
+}
