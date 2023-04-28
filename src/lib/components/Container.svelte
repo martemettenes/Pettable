@@ -1,10 +1,10 @@
 <section>
-    Container content
+    <slot />
 </section>
 
 <style>
     section {
-        padding: 2rem 0;
+        padding: 1rem;
     }
 
 </style>

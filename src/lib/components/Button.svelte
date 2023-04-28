@@ -1,13 +1,18 @@
+<script>
+    export let buttonText = 'buttonText'
+</script>
+
 <button>
-    Get started with Pettable
+    {buttonText}
 </button>
 
 <style lang="scss">
     button {
         background: #457659;
-        padding: 14px;
-        font-size: 24px;
-        line-height: 28px;
+        color: #fff;
+        padding: 4px 16px;
+        font-size: 18px;
+        line-height: 22px;
         border: none;
         border-radius: 50px;
     }
