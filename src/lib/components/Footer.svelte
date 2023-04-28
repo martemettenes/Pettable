@@ -4,7 +4,7 @@
 
 <footer>
     Footer
-<Button />
+<Button buttonText='Get in touch' />
 </footer>
 
 <style>
@@ -15,10 +15,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        position:absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
     }
 
     a {
