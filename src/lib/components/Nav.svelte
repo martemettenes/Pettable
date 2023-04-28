@@ -9,16 +9,30 @@
     </ul>
 </nav>
 
-<style>
-    ul {
-        margin: 0;
-        list-style-type: none;
+<style lang='scss'>
+    nav {
         display: flex;
-        gap: 1rem;
-    }
+        align-items: center;
 
-    a {
-        text-decoration: none;
-        color: #A0CBB1;
+        ul {
+            margin: 0;
+            list-style-type: none;
+            display: flex;
+            gap: 1rem;
+
+            li {
+                font-weight: 400;
+
+                a {
+                    text-decoration: none;
+                    color: #A0CBB1;
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        
     }
 </style>
