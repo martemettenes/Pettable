@@ -1,7 +1,7 @@
 node_modules/
 logs/
 package-lock.json
-.svelte-kit/
+.svelte-kit
 
 # macOS Files
 .DS_Store
