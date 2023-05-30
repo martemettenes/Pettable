@@ -4,7 +4,7 @@
 
 <footer>
     Footer
-<Button buttonText='Get in touch' />
+<Button buttonText='Get in touch' style="light" />
 </footer>
 
 <style>
@@ -16,8 +16,4 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
-    a {
-            color: #A0CBB1;
-        }
 </style>
