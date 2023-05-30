@@ -1,7 +1,7 @@
 <script>
     import Nav from '$lib/components/Nav.svelte'
 
-    let src = 'src/lib/assets/logo/Pettable.svg';
+    let src = 'src/lib/assets/logo/Pettable-logo--light-purple.svg';
 </script>
 
 <header>

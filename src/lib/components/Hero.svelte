@@ -8,33 +8,53 @@
 </script>
 
 <section>
-    <img alt={imgAlt} src={imgSrc} />
+    <div class="imgDiv">
+        <img alt={imgAlt} src={imgSrc} />
+    </div>
     <div>
         <h2>
             {title}
         </h2>
-        <Button buttonText={heroButtonText} />
+        <Button buttonText={heroButtonText} style="dark" />
     </div>
 </section>
 
 <style lang='scss'>
     section {
         display: flex;
-        background: lightgrey;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        background: #F0EBFF;
         
-        img {
-            height: 100%;
-            width: 50%;
+        .imgDiv {
+            position: relative;
+
+            &::after {
+                content: "";
+                display: block;
+                padding-bottom: 100%
+            }
+            
+            img {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
         }
         
         div {
-            width: 50%;
+            width: 100%;
             padding: 1rem;
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+
+            @media (min-width: 481px) {
+                width: 50%
+            }
 
             h2 {
                 margin-top: 0;
