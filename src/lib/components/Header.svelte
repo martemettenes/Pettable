@@ -18,6 +18,7 @@
         padding: 1rem;
         background: #1E442E;
         color: #A0CBB1;
+        overflow: hidden;
 
         section {
             margin: 0 auto;
