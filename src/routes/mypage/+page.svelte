@@ -1,40 +1,26 @@
-<!-- <script>
-    export let name = 'name'
-    export let address = 'address'
-    export let phone = 'phone'
-    export let email = 'email'
-</script> -->
-
+<script>
+    import Card from '$lib/components/Card.svelte'
+    import CardGroup from '$lib/components/CardGroup.svelte'
+    export let data;
+</script>
 
 
 <h1> My page hello </h1>
-
-<section> 
-    <h2> Personalia </h2>
-    <!-- <p> {name} </p> -->
-    <p> name </p>
-    <!-- <p> {address} </p> -->
-    <p> address </p>
-    <!-- <p> {phone} </p> -->
-    <p>  phone </p>
-    <!-- <p> {email} </p> -->
-    <p> email </p>
-</section>
-
+{#if data.pets && data.pets.length}
 <section>
     <h2> My pets </h2>
-    <ul> 
-        <li>
-            <p> Pet name </p>
-            <p> Pet age </p>
-            <p> Pet breed </p>
-            <p> Pet description </p>
-            <p> Pet meds: </p>
-            <ul> 
-                <li> Onsior </li>
-                <li> Kalcuim </li>
-                <li> Working dog powder </li>
-            <ul/>
-        </li>
-    </ul>
+    <CardGroup>
+        {#each data.pets as pet}
+        <Card
+        imgSrc={pet.image}
+        imgAlt={pet.image.caption}>
+            <h3> {pet.name} </h3>
+            <p> {pet.type} </p>
+            <p> {pet.birthdate} </p>
+        </Card>
+        {/each}
+    </CardGroup>
 </section>
+{:else}
+	<p>No pets found.</p>
+{/if}
