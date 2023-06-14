@@ -1,3 +1,6 @@
+@import "variables.scss";
+@import "mixins.scss";
+
 // Fonts
 
 // Nunito ExtraLight
@@ -61,6 +64,10 @@ footer {
     width: 100%;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
 
 h1 {
     font-size: 24px;
@@ -82,7 +89,7 @@ h6 {
     font-size: 12px;
 }
 
-@media (min-width: 769px) {
+@media screen and (min-width: 768px) {
     h1 {
         font-size: 48px;
     }
@@ -103,15 +110,3 @@ h6 {
         font-size: 14px;
     }
 }
-
-//Variables:
-//breakpoints
-
-$screen-width-xs: 480px;
-$screen-width-s: 768px;
-$screen-width-m: 1024px;
-$screen-width-l: 1200px;
-$screen-width-xl: 2000px;
-
-$breakpoint-mobile: $screen-width-xs;
-

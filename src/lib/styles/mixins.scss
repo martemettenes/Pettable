@@ -1,0 +1,36 @@
+// Breakpoint mixin
+@mixin breakpoint($size) {
+    @media screen and (min-width: map-get($breakpoints-map, $size)) {
+        @content;
+    }
+}
+
+@mixin breakpointMax($size) {
+    @media screen and (max-width: map-get($breakpoints-max-map, $size)) {
+        @content;
+    }
+}
+
+
+
+.ratio {
+    height: 0;
+    padding: 0;
+    position: relative;
+}
+
+.ratio--1-1 {
+    padding-bottom: 100%;
+}
+
+.ratio__item--cover {
+    object-fit: cover;
+}
+
+.ratio__item {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
