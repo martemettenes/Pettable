@@ -2,22 +2,10 @@
     import Container from '$lib/components/Container.svelte'
     import Hero from '$lib/components/Hero.svelte'
 
-    export let data;
+    // export let data;
 </script>
 
 <h1> Welcome to Pettable </h1>
-
-{#if data.pets && data.pets.length}
-    <ul>
-        {#each data.pets as pet}
-            <li>{pet.name}</li>
-            <li>{pet.type}</li>
-            <li>{pet.birthdate}</li>
-        {/each}
-    </ul>
-{:else}
-	<p>No pets found.</p>
-{/if}
 
 <Container>
     <!-- <h1> Pettable pet care system </h1> -->
