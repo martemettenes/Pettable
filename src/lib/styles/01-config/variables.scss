@@ -1,0 +1,170 @@
+// Color
+$color-purple-10: #301e63;
+$color-purple-20: #493389;
+$color-purple-30: #7054bf;
+$color-purple-40: #9379df;
+$color-purple-50: #AA91EF;
+$color-purple-60: #c7b4fc;
+$color-purple-80: #dfd4ff;
+$color-purple-90: #f0ebff;
+
+$color-green-10: #102b1a;
+$color-green-20: #1e442e;
+$color-green-30: #325b43;
+$color-green-40: #457659;
+$color-green-50: #70a384;
+$color-green-60: #a0cbb1;
+$color-green-80: #cfefdc;
+$color-green-90: #ebfff3;
+
+
+// Font Sizes
+$font-size-a: rem-calc(12px);
+$font-size-b: rem-calc(14px);
+$font-size-c: rem-calc(16px);
+$font-size-d: rem-calc(18px);
+$font-size-e: rem-calc(22px);
+$font-size-f: rem-calc(28px);
+$font-size-g: rem-calc(36px);
+$font-size-h: rem-calc(40px);
+$font-size-i: rem-calc(56px);
+$font-size-j: rem-calc(64px);
+$font-size-k: rem-calc(72px);
+
+// Line heights
+$line-height-a: rem-calc(16px);
+$line-height-b: rem-calc(20px);
+$line-height-c: rem-calc(24px);
+$line-height-d: rem-calc(28px);
+$line-height-e: rem-calc(28px);
+$line-height-f: rem-calc(32px);
+$line-height-g: rem-calc(44px);
+$line-height-h: rem-calc(48px);
+$line-height-i: rem-calc(60px);
+$line-height-j: rem-calc(72px);
+$line-height-k: rem-calc(80px);
+
+// Font weight
+$font-weight-extralight: 200;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+// Font style
+$font-style-italic: italic;
+$font-style-normal: normal;
+
+$font-family-brand: 'nunito', sans-serif;
+
+// Fonts
+
+// Nunito ExtraLight
+// font-family: "nunito", sans-serif;
+// font-weight: 200;
+// font-style: normal;
+
+// Nunito ExtraLight Italic
+// font-family: "nunito", sans-serif;
+// font-weight: 200;
+// font-style: italic;
+
+// Nunito Regular
+// font-family: "nunito", sans-serif;
+// font-weight: 400;
+// font-style: normal;
+
+// Nunito Italic
+// font-family: "nunito", sans-serif;
+// font-weight: 400;
+// font-style: italic;
+
+// Nunito Bold
+// font-family: "nunito", sans-serif;
+// font-weight: 700;
+// font-style: normal;
+
+// Nunito Bold Italic
+// font-family: "nunito", sans-serif;
+// font-weight: 700;
+// font-style: italic;
+
+
+// Spacing
+$spacing-2: rem-calc(2px);
+$spacing-4: rem-calc(4px);
+$spacing-8: rem-calc(8px);
+$spacing-12: rem-calc(12px);
+$spacing-16: rem-calc(16px);
+$spacing-20: rem-calc(20px);
+$spacing-24: rem-calc(24px);
+$spacing-32: rem-calc(32px);
+$spacing-40: rem-calc(40px);
+$spacing-52: rem-calc(52px);
+$spacing-64: rem-calc(64px);
+$spacing-96: rem-calc(96px);
+$spacing-128: rem-calc(128px);
+$spacing-180: rem-calc(180px);
+
+//breakpoints
+
+$breakpoints-map: (
+    'all': (
+        0px,
+    ),
+    'xxs': (
+        320px,
+    ),
+    'xs': (
+        480px,
+    ),
+    's': (
+        768px,
+    ),
+    'm': (
+        1024px,
+    ),
+    'l': (
+        1280px,
+    ),
+    'xl': (
+        1440px,
+    ),
+    'xxl': (
+        2000px,
+    ),
+);
+
+$breakpoints-max-map: (
+    'all': (
+        0px,
+    ),
+    'xxs': (
+        319.98px,
+    ),
+    'xs': (
+        479.98px,
+    ),
+    's': (
+        767.98px,
+    ),
+    'm': (
+        1023.98px,
+    ),
+    'l': (
+        1279.98px,
+    ),
+    'xl': (
+        1439.98px,
+    ),
+    'xxl': (
+        1999.98px,
+    ),
+);
+
+$screen-width-xs: 480px;
+$screen-width-s: 768px;
+$screen-width-m: 1024px;
+$screen-width-l: 1200px;
+$screen-width-xl: 2000px;
+
+$breakpoint-mobile: $screen-width-xs;
+

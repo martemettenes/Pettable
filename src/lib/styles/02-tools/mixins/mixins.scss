@@ -1,3 +1,9 @@
+// Font
+@mixin font-size($size) {
+    font-size: map-get($font-size-map, $size);
+    line-height: map-get($line-height-map, $size);
+}
+
 // Breakpoint mixin
 @mixin breakpoint($size) {
     @media screen and (min-width: map-get($breakpoints-map, $size)) {
@@ -12,6 +18,7 @@
 }
 
 
+// Ratio classes
 
 .ratio {
     height: 0;
