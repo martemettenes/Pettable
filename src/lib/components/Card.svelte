@@ -1,6 +1,6 @@
 <script>
 import { urlFor } from '$lib/utils/image.js'
-import '$lib/styles/style.scss';
+import '$lib/styles/styles.scss';
 
 export let imgSrc = 'imgSrc';
 export let imgAlt = 'imgAlt';
@@ -18,16 +18,13 @@ export let imgAlt = 'imgAlt';
 
 <style lang="scss">
     .card {
-        color: #EBFFF3;
-        grid-column: span 4;
+        color: $color-purple-30;
+        grid-column: span 2;
 
-        @media screen and (min-width: 480px) {
-            grid-column: span 2;
-        }
-
-        @media screen and (min-width: 768px) {
+        @include breakpointMax(xxs) {
             grid-column: span 4;
         }
+
 
         .cardImgContainer {
             width: 100%;
@@ -37,9 +34,9 @@ export let imgAlt = 'imgAlt';
 
         .cardTextContainer {
             padding: 1rem;
-            background-color: $color-purple-30;
+            background-color: $color-green-80;
         }
 
     }
 
-    </style>
+</style>
