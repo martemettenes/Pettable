@@ -1,0 +1,88 @@
+@import "01-config/_manifest-config.scss";
+@import "02-tools/_manifest-tools.scss";
+@import "03-base/_manifest-base.scss";
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0 auto;
+    font-family: "nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 2000px;
+    padding: 0 16px;
+    margin: 0 auto;
+    padding-bottom: 72px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 { 
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+    
+    h4 { 
+        font-size: 18px;
+    }
+    
+    h5 {
+        font-size: 16px;
+    }
+    
+    h6 {
+        font-size: 14px;
+    }
+}

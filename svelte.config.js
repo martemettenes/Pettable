@@ -10,7 +10,11 @@ const config = {
 		adapter: adapter()
 	},
 	preprocess: [
-		sveltePreprocess()
+		sveltePreprocess({
+			scss: {
+				prependData: `@import './src/lib/styles/styles.scss';`
+			}
+		})
 	]
 };
 
