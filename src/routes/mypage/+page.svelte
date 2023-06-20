@@ -1,4 +1,5 @@
 <script>
+    import '$lib/styles/styles.scss';
     import Card from '$lib/components/Card.svelte'
     import CardGroup from '$lib/components/CardGroup.svelte'
 

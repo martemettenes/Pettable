@@ -4,18 +4,6 @@
     line-height: map-get($line-height-map, $size);
 }
 
-// Breakpoint mixin
-@mixin breakpoint($size) {
-    @media screen and (min-width: map-get($breakpoints-map, $size)) {
-        @content;
-    }
-}
-
-@mixin breakpointMax($size) {
-    @media screen and (max-width: map-get($breakpoints-max-map, $size)) {
-        @content;
-    }
-}
 
 
 // Ratio classes
@@ -40,4 +28,18 @@
     position: absolute;
     top: 0;
     width: 100%;
+}
+
+
+// Breakpoint mixin
+@mixin breakpoint($size) {
+    @media screen and (min-width: map-get($breakpoints-map, $size)) {
+        @content;
+    }
+}
+
+@mixin breakpointMax($size) {
+    @media screen and (max-width: map-get($breakpoints-max-map, $size)) {
+        @content;
+    }
 }
