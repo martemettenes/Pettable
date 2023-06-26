@@ -10,13 +10,12 @@
 </div>
 
 <style lang="scss">
-@import '../styles/styles.scss';
-
+    
     .cardgroup {
         margin-bottom: 4rem;
-
+        
     }
-
+    
     h2 {
         color: $color-purple-20;
         margin-bottom: 1rem;

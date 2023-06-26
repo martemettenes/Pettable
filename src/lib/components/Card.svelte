@@ -16,9 +16,6 @@ export let imgAlt = 'imgAlt';
 </div>
 
 <style lang="scss">
-    @import '../styles/styles.scss';
-
-
     .card {
         color: $color-purple-20;
         grid-column: span 2;

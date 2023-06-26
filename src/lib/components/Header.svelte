@@ -14,7 +14,6 @@
 </header>
 
 <style lang="scss">
-    @import '../styles/styles.scss';
 
     header {
         padding: 1rem;
