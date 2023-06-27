@@ -9,7 +9,7 @@
 
 <section>
     <div class="imgDiv">
-        <img alt={imgAlt} src={imgSrc} />
+        <img src={imgSrc} alt={imgAlt}  />
     </div>
     <div>
         <h2>
