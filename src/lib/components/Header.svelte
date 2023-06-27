@@ -1,13 +1,13 @@
 <script>
     import Nav from '$lib/components/Nav.svelte'
     
-    let src = 'src/lib/assets/logo/Pettable-logo--light-purple.svg';
+    import logo from '$lib/assets/logo/Pettable-logo--light-purple.svg';
 </script>
 
 <header>
     <section>
         <a href="/">
-            <img {src} alt="Pettable logo">  
+            <img src={logo} alt="Pettable logo">  
         </a>
         <Nav />
     </section>
