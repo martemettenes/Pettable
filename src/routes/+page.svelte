@@ -5,6 +5,7 @@
     // export let data;
     import sheepImg from '$lib/assets/img/sheep-1.jpeg'
     import dogImg from '$lib/assets/img/dog-img.jpeg'
+    import catImg from '$lib/assets/img/cat-1.jpeg'
 </script>
 
 <h1> Welcome to Pettable </h1>
@@ -17,6 +18,6 @@
     <Hero imgSrc={sheepImg} imgAlt='Photo of a sheep' title='We take care of all kinds of pettable pets' heroButtonText='Read more' />
 </Container>
 <Container>
-    <Hero imgSrc={sheepImg} imgAlt='Photo of a sheep' title='We take care of all kinds of pettable pets' heroButtonText='Read more' />
+    <Hero imgSrc={catImg} imgAlt='Photo of a sheep' title='We take care of all kinds of pettable pets' heroButtonText='Read more' />
 </Container>
 
