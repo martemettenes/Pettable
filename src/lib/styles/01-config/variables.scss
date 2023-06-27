@@ -1,21 +1,25 @@
 // Color
-$color-purple-10: #301e63;
 $color-purple-20: #493389;
-$color-purple-30: #7054bf;
-$color-purple-40: #9379df;
 $color-purple-50: #AA91EF;
-$color-purple-60: #c7b4fc;
-$color-purple-80: #dfd4ff;
+$color-purple-70: #dfd4ff;
 $color-purple-90: #f0ebff;
 
-$color-green-10: #102b1a;
-$color-green-20: #1e442e;
-$color-green-30: #325b43;
-$color-green-40: #457659;
+$color-green-20: #325B43;
 $color-green-50: #70a384;
-$color-green-60: #a0cbb1;
-$color-green-80: #cfefdc;
+$color-green-70: #cfefdc;
 $color-green-90: #ebfff3;
+
+$color-blue-20: #295A86;
+$color-blue-50: #8DB6DC;
+$color-blue-70: #CBDFF2;
+$color-blue-90: #E7F3FF;
+
+$color-orange-20: #AF5400;
+$color-orange-50: #E8994C;
+$color-orange-70: #FFCE9E;
+$color-orange-90: #FFF1E2;
+
+
 
 
 // Font Sizes
@@ -30,6 +34,8 @@ $font-size-h: rem-calc(40px);
 $font-size-i: rem-calc(56px);
 $font-size-j: rem-calc(64px);
 $font-size-k: rem-calc(72px);
+
+$base-font-size: 16px;
 
 // Line heights
 $line-height-a: rem-calc(16px);

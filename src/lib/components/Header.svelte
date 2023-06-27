@@ -1,7 +1,6 @@
 <script>
     import Nav from '$lib/components/Nav.svelte'
-    import '$lib/styles/styles.scss'
-
+    
     let src = 'src/lib/assets/logo/Pettable-logo--light-purple.svg';
 </script>
 
@@ -15,6 +14,7 @@
 </header>
 
 <style lang="scss">
+
     header {
         padding: 1rem;
         background: $color-purple-20;

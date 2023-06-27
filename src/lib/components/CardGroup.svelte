@@ -1,6 +1,4 @@
 <script>
-    import '$lib/styles/styles.scss';
-
     export let cardGroupTitle = 'Card Group';
 </script>
 
@@ -12,13 +10,14 @@
 </div>
 
 <style lang="scss">
+    
     .cardgroup {
         margin-bottom: 4rem;
-
+        
     }
-
+    
     h2 {
-        color: $color-purple-30;
+        color: $color-purple-20;
         margin-bottom: 1rem;
     }
 
