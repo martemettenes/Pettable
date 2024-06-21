@@ -7,7 +7,7 @@
     export let heroButtonText = 'heroButtonText'
 </script>
 
-<section>
+<section class="woof-hero">
     <div class="imgDiv">
         <img src={imgSrc} alt={imgAlt}  />
     </div>
