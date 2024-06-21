@@ -2,15 +2,15 @@
     import Button from '$lib/components/Button.svelte'
 </script>
 
-<footer>
+<footer class="woof-footer">
     Footer
 <Button buttonText='Get in touch' style="light" />
 </footer>
 
-<style>
+<style lang='scss'>
     footer {
         padding: 1rem;
-        background: #1E442E;
+        background: var(--woof-footer-bg);
         color: #A0CBB1;
         display: flex;
         flex-wrap: wrap;

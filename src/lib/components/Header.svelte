@@ -3,7 +3,7 @@
     import logo from '$lib/assets/logo/Pettable-logo--light-purple.svg';
 </script>
 
-<header>
+<header class="woof-header">
     <section>
         <a href="/">
             <img src={logo} alt="Pettable logo">  
@@ -15,8 +15,8 @@
 <style lang="scss">
     header {
         padding: 1rem;
-        background: $color-purple-20;
-        color: $color-green-90;
+        background: var(--woof-header-bg);
+        color: var(--woof-header-color);
         overflow: hidden;
 
         section {
