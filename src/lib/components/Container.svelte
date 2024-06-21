@@ -1,4 +1,4 @@
-<section>
+<section class="woof-container">
     <slot />
 </section>
 
