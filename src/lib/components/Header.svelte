@@ -16,7 +16,9 @@
     header {
         padding: 1rem;
         background: var(--woof-header-bg);
+        // background: $color-green-20;
         color: var(--woof-header-color);
+        // color: $color-purple-20;
         overflow: hidden;
 
         section {
