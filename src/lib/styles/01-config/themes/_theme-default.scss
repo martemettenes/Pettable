@@ -1,0 +1,11 @@
+// Default Theme variables
+
+:root,
+[data-theme='Default'] {
+    //body
+    --woof-body-bg: #ffffff;
+    --woof-body-color: #000000;
+
+    // header
+    --woof-header-bg: $color-purple-20;
+}
